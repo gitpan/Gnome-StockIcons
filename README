@@ -1,4 +1,4 @@
-Gnome/StockIcons version 1.4.1
+Gnome/StockIcons version 1.4.2
 ==============================
 
 These are XPM pixmaps of stock Gnome icons
@@ -15,7 +15,7 @@ To install this module type the following:
 
 DEPENDENCIES
 
-The module does not strictly speaking require Gtk, but it's not much use without.
+The module does not strictly speaking require Gtk, but it's not much use without. You need Gtk for make test.
 
 COPYRIGHT AND LICENCE
 

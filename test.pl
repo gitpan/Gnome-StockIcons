@@ -155,7 +155,7 @@ $pixmapwid->show();
 #$main_vbox->pack_start( $pixmapwid, $false, $false, 2 );
 $table->attach( $pixmapwid,$i ,$ii,$j, $jj,[],[],2,2);
 }
-
+$idle = Gtk->idle_add( sub {sleep 2;print "ok 1\n";exit(0)} );
 main Gtk;
 return 1;
 
